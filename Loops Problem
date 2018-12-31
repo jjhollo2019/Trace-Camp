@@ -1,7 +1,5 @@
 if __name__ == '__main__':
     n = int(input())
-    l = 0
-    while(l != n):
-        out = l * l
-        print(out)
-        l += 1
+    squares = [value**2 for value in range(0, n)]
+    for value in squares:
+        print(value)
