@@ -7,6 +7,5 @@ if __name__ == '__main__':
         student_marks[name] = scores
     query_name = input()
     score = student_marks[query_name]
-    out = sum(score)
-    out /= 3
+    out = sum(score) / 3
     print('{:.2f}'.format(out))
