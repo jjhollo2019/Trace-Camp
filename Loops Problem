@@ -1,0 +1,7 @@
+if __name__ == '__main__':
+    n = int(input())
+    l = 0
+    while(l != n):
+        out = l * l
+        print(out)
+        l += 1
